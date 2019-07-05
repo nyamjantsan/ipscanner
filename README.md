@@ -10,7 +10,7 @@ simple ip scanner (using icmp)
 gcc ipscanner.c -o ipscanner -lpcap
 
 **** Instruction ****
-using unix socket programming
+using unix socket programming and linux pcap library
 ----Source code compile -----
 Step 1
 --- sudo apt-get install lipcap-dev---

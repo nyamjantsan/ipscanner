@@ -37,7 +37,7 @@ if (nleft == 1) {
   ans = ~sum;
   return (ans);
 }
-  
+ /* Ping function is using ICMP protocol */
 static void ping(const char *host)
 {
   struct hostent *h;
