@@ -5,7 +5,7 @@ simple ip scanner (using icmp)<br />
 энгийн ip scanner програм, линук үйлдлийн системийн юникс соккет ашигласан. <br />
 ---Compile хийх---<br />
 Хамгийн эхлээд libpcap санг татна.<br />
-- sudo apt-get install lipcap-dev<br />
+sudo apt-get install lipcap-dev<br />
 Эх код компайл хийхдээ<br />
 gcc ipscanner.c -o ipscanner -lpcap<br />
 
@@ -13,6 +13,6 @@ gcc ipscanner.c -o ipscanner -lpcap<br />
 using unix socket programming and linux pcap library<br />
 ---Source code compile ---<br />
 Step 1<br />
-- sudo apt-get install lipcap-dev<br />
+sudo apt-get install lipcap-dev<br />
 Step 2 <br />
 gcc ipscanner.c -o ipscanner -lpcap
